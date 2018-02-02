@@ -18,6 +18,7 @@ function distanceTravelledInFeet (start, destination){
   return calculateVertical (start, destination) * 264;
 }
 
-function calculatesFarePrice (){
+function calculatesFarePrice (start, destination){
+  
   
 }
