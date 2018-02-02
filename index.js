@@ -1,5 +1,4 @@
 let start
-let end 
 let destination
 
 function calculateVertical (){
