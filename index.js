@@ -1,8 +1,8 @@
 let start
 let destination
 
-function calculateVertical (){
-    
+function calculateVertical (start, destination){
+    return Math.abs(start - destination)
   }
 
 function distanceFromHqInBlocks (start){
@@ -14,8 +14,8 @@ function distanceFromHqInFeet (start) {
 
 }
 
-function distanceTravelledInFeet (){
-  calculateVertical ();
+function distanceTravelledInFeet (start, destination){
+  return calculateVertical (start, destination) * 264;
 }
 
 function calculatesFarePrice (){
