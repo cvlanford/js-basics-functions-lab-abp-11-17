@@ -21,7 +21,7 @@ function distanceTravelledInFeet (start, destination){
 function calculatesFarePrice (start, destination){
   let trip = distanceTravelledInFeet(start, destination);
   if (trip > 2500){
-   return `Cannot travel that far.`; 
+   return `cannot travel that far`; 
   } else if (trip > 2000 && trip < 2500){
     return 25;
   } else if (trip >= 400 && trip <= 2000 ){
