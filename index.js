@@ -27,7 +27,7 @@ function calculatesFarePrice (start, destination){
   } else if (trip >= 400 && trip <= 2000 ){
     return trip * 0.02;
   } else{
-    return 
+    return 0;
   }
   
 }
